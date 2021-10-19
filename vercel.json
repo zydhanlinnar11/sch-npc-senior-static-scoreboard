@@ -1,0 +1,6 @@
+{
+  "redirects": [
+    { "source": "/", "destination": "/2021/final" },
+    { "source": "/2021", "destination": "/2021/final" }
+  ]
+}

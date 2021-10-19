@@ -1,0 +1,3089 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- DOMjudge version 7.3.3 -->
+    <meta charset="utf-8" />
+    <title>
+      Scoreboard - Schematics NPC Senior 2021 | Schematics 2021 | Reviving the
+      Soul of Technology through Art and Logic.
+    </title>
+    <link rel="icon" href="/2021/favicon.ico?v=7.3.3" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="/2021/css/bootstrap.min.css?v=7.3.3" />
+    <link rel="stylesheet" href="/2021/css/fontawesome-all.min.css?v=7.3.3" />
+    <link rel="stylesheet" href="/2021/style_domjudge.css?v=7.3.3" />
+
+    <meta property="og:image" content="/2021/images/large-og.webp?v=7.3.3" />
+    <meta property="og:image:width" content="1080" />
+    <meta property="og:image:height" content="1080" />
+    <meta name="twitter:image" content="/2021/images/large-og.webp?v=7.3.3" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Schematics ITS" />
+    <meta
+      property="og:title"
+      content="Scoreboard - Schematics NPC Senior 2021 | Schematics 2021 | Reviving the Soul of Technology through Art and Logic."
+    />
+    <meta
+      name="twitter:title"
+      content="Scoreboard - Schematics NPC Senior 2021 | Schematics 2021 | Reviving the Soul of Technology through Art and Logic."
+    />
+    <meta property="og:url" content="https://senior.schematics-npc.com" />
+    <meta
+      name="twitter:description"
+      content="Schematics National Programming Contest (Schematics NPC) adalah kompetisi pemrograman tingkat nasional dengan standar kompetisi tingkat internasional yang diselenggarakan oleh Departemen Informatika ITS."
+    />
+    <meta
+      property="og:description"
+      content="Schematics National Programming Contest (Schematics NPC) adalah kompetisi pemrograman tingkat nasional dengan standar kompetisi tingkat internasional yang diselenggarakan oleh Departemen Informatika ITS."
+    />
+    <meta name="twitter:site" content="@schematics_its" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
+  <body style="padding-top: 4.5rem">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <img
+            class="banner"
+            src="/2021/images/banner.png?v=7.3.3"
+            alt="Banner"
+          />
+
+          <div
+            data-ajax-refresh-target
+            data-ajax-refresh-after="initializeScoreboard"
+            class="mt-3"
+          >
+            <div class="card">
+              <div
+                class="card-header"
+                style="font-family: Roboto, sans-serif; display: flex"
+              >
+                <span style="font-weight: bold"
+                  >Babak Final Schematics NPC Senior 2021</span
+                >
+                <span style="color: DimGray; margin-left: auto">
+                  final standings
+                </span>
+              </div>
+            </div>
+
+            <br />
+
+            <table class="scoreboard center">
+              <colgroup>
+                <col id="scorerank" />
+                <col />
+                <col id="scorelogos" />
+                <col id="scoreteamname" />
+              </colgroup>
+              <colgroup>
+                <col id="scoresolv" />
+                <col id="scoretotal" />
+              </colgroup>
+              <colgroup>
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+                <col class="scoreprob" />
+              </colgroup>
+
+              <thead>
+                <tr class="scoreheader">
+                  <th title="rank" scope="col">rank</th>
+                  <th title="team name" scope="col" colspan="3">team</th>
+                  <th title="# solved / penalty time" colspan="2" scope="col">
+                    score
+                  </th>
+                  <th title="problem Angka Sial" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(201, 61, 69);
+                          min-width: 25px;
+                          border: 1px solid rgb(137, 0, 5);
+                        "
+                        ><span style="color: #ffffff">A</span></span
+                      >
+                    </a>
+                  </th>
+                  <th title="problem Berhitung" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(253, 83, 86);
+                          min-width: 25px;
+                          border: 1px solid rgb(189, 19, 22);
+                        "
+                        ><span style="color: #ffffff">B</span></span
+                      >
+                    </a>
+                  </th>
+                  <th title="problem Crash Loyale" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(253, 124, 124);
+                          min-width: 25px;
+                          border: 1px solid rgb(189, 60, 60);
+                        "
+                        ><span style="color: #000000">C</span></span
+                      >
+                    </a>
+                  </th>
+                  <th title="problem Dilanda Pandemi" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(19, 129, 118);
+                          min-width: 25px;
+                          border: 1px solid rgb(19, 65, 54);
+                        "
+                        ><span style="color: #ffffff">D</span></span
+                      >
+                  </th>
+                  <th title="problem Eksplorasi Kota" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(255, 209, 0);
+                          min-width: 25px;
+                          border: 1px solid rgb(191, 145, 0);
+                        "
+                        ><span style="color: #000000">E</span></span
+                      >
+                  </th>
+                  <th title="problem Fun Tour" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(254, 96, 33);
+                          min-width: 25px;
+                          border: 1px solid rgb(190, 32, 0);
+                        "
+                        ><span style="color: #ffffff">F</span></span
+                      >
+                  </th>
+                  <th title="problem Good Game" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(24, 164, 136);
+                          min-width: 25px;
+                          border: 1px solid rgb(0, 100, 72);
+                        "
+                        ><span style="color: #ffffff">G</span></span
+                      >
+                  </th>
+                  <th title="problem Hakuna Matata" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(77, 142, 182);
+                          min-width: 25px;
+                          border: 1px solid rgb(13, 78, 118);
+                        "
+                        ><span style="color: #ffffff">H</span></span
+                      >
+                  </th>
+                  <th title="problem Indahnya Bintang di Langit" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(61, 113, 150);
+                          min-width: 25px;
+                          border: 1px solid rgb(0, 49, 86);
+                        "
+                        ><span style="color: #ffffff">I</span></span
+                      >
+                  </th>
+                  <th title="problem Jangan-Jangan Muat" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(201, 61, 69);
+                          min-width: 25px;
+                          border: 1px solid rgb(137, 0, 5);
+                        "
+                        ><span style="color: #ffffff">J</span></span
+                      >
+                  </th>
+                  <th title="problem Kelas Pemrograman" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(255, 209, 0);
+                          min-width: 25px;
+                          border: 1px solid rgb(191, 145, 0);
+                        "
+                        ><span style="color: #000000">K</span></span
+                      >
+                  </th>
+                  <th title="problem Lingkaran Gelang" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(19, 129, 118);
+                          min-width: 25px;
+                          border: 1px solid rgb(19, 65, 54);
+                        "
+                        ><span style="color: #ffffff">L</span></span
+                      >
+                  </th>
+                  <th title="problem Minimumnya Berapa?" scope="col">
+                    <a target="_self">
+                      <span
+                        class="badge problem-badge"
+                        style="
+                          background-color: rgb(77, 142, 182);
+                          min-width: 25px;
+                          border: 1px solid rgb(13, 78, 118);
+                        "
+                        ><span style="color: #ffffff">M</span></span
+                      >
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="sortorderswitch" id="team:201">
+                  <td class="scorepl gold-award">1</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Among">
+                    <a>
+                      <span class="forceWidth"> Among </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">11</td>
+                  <td class="scorett">1237</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        10
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        58
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        47
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        27
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        18
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        215
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        118
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        238
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        262
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 11 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        114
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        10
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:155">
+                  <td class="scorepl silver-award">2</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/17.png?v=7.3.3"
+                        alt="Universitas Indonesia"
+                        title="Universitas Indonesia"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="2.65">
+                    <a>
+                      <span class="forceWidth"> 2.65 </span>
+                      <span class="univ forceWidth">
+                        Universitas Indonesia
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">11</td>
+                  <td class="scorett">1420</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        13
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        65
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        17
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        27
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        298
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        109
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        220
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        174
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        118
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        90
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        9
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:154">
+                  <td class="scorepl bronze-award">3</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/18.png?v=7.3.3"
+                        alt="Institut Teknologi Bandung"
+                        title="Institut Teknologi Bandung"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Ryungan Pangsaena">
+                    <a>
+                      <span class="forceWidth"> Ryungan Pangsaena </span>
+                      <span class="univ forceWidth">
+                        Institut Teknologi Bandung
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">11</td>
+                  <td class="scorett">1444</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        35
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        179
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        54
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        15
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        25
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        169
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        65
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        237
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        290
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        128
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        7
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:157">
+                  <td class="scorepl harapan-award">4</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/17.png?v=7.3.3"
+                        alt="Universitas Indonesia"
+                        title="Universitas Indonesia"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="3S: 2 Silver 1 Salman">
+                    <a>
+                      <span class="forceWidth"> 3S: 2 Silver 1 Salman </span>
+                      <span class="univ forceWidth">
+                        Universitas Indonesia
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">10</td>
+                  <td class="scorett">1015</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        21
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 18 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        62
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        32
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        12
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        96
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        86
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        192
+                        <span> 9 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        133
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        116
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        5
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:195">
+                  <td class="scorepl harapan-award">5</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="https://bit.ly/nama-tim">
+                    <a>
+                      <span class="forceWidth"> https://bit.ly/nama-tim </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">9</td>
+                  <td class="scorett">1150</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        13
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        79
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        56
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        29
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        127
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        219
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        278
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        141
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        28
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:235">
+                  <td class="scorepl">6</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/53.png?v=7.3.3"
+                        alt="Universitas Sampoerna"
+                        title="Universitas Sampoerna"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="brrr">
+                    <a>
+                      <span class="forceWidth"> brrr </span>
+                      <span class="univ forceWidth">
+                        Universitas Sampoerna
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">9</td>
+                  <td class="scorett">1240</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        17
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        77
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        53
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        36
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        193
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        105
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        288
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        148
+                        <span> 7 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        23
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:222">
+                  <td class="scorepl">7</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/18.png?v=7.3.3"
+                        alt="Institut Teknologi Bandung"
+                        title="Institut Teknologi Bandung"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Ayam Bangkok Putih cs.">
+                    <a>
+                      <span class="forceWidth"> Ayam Bangkok Putih cs. </span>
+                      <span class="univ forceWidth">
+                        Institut Teknologi Bandung
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">9</td>
+                  <td class="scorett">1506</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        84
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        154
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        153
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        47
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        275
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        35
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        258
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        194
+                        <span> 7 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        26
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:158">
+                  <td class="scorepl">8</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/17.png?v=7.3.3"
+                        alt="Universitas Indonesia"
+                        title="Universitas Indonesia"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Di-CARRY Juri OSN">
+                    <a>
+                      <span class="forceWidth"> Di-CARRY Juri OSN </span>
+                      <span class="univ forceWidth">
+                        Universitas Indonesia
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">8</td>
+                  <td class="scorett">713</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        30
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        25
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        46
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        79
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        204
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        107
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        76
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        6
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:191">
+                  <td class="scorepl">9</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/17.png?v=7.3.3"
+                        alt="Universitas Indonesia"
+                        title="Universitas Indonesia"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="KuMenangisss">
+                    <a>
+                      <span class="forceWidth"> KuMenangisss </span>
+                      <span class="univ forceWidth">
+                        Universitas Indonesia
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">8</td>
+                  <td class="scorett">727</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        5
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 7 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        69
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        50
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        22
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        221
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        120
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 14 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        110
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        10
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:192">
+                  <td class="scorepl">10</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="2Jomblo&amp;Friend">
+                    <a>
+                      <span class="forceWidth"> 2Jomblo&amp;Friend </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">8</td>
+                  <td class="scorett">1030</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        25
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        180
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        32
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        54
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        297
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        144
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        95
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        3
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:188">
+                  <td class="scorepl">11</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="LF-01">
+                    <a>
+                      <span class="forceWidth"> LF-01 </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">8</td>
+                  <td class="scorett">1310</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        20
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        110
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        65
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        128
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        212
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        264
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        212
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        19
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:202">
+                  <td class="scorepl">12</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Proof by Sus">
+                    <a>
+                      <span class="forceWidth"> Proof by Sus </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">7</td>
+                  <td class="scorett">590</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        11
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        35
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        21
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        30
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        171
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        178
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        4
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:209">
+                  <td class="scorepl">13</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/18.png?v=7.3.3"
+                        alt="Institut Teknologi Bandung"
+                        title="Institut Teknologi Bandung"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="QINGQONGQANGQONG">
+                    <a>
+                      <span class="forceWidth"> QINGQONGQANGQONG </span>
+                      <span class="univ forceWidth">
+                        Institut Teknologi Bandung
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">7</td>
+                  <td class="scorett">969</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        46
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 9 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        152
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        74
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        22
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        295
+                        <span> 9 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        170
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        10
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:190">
+                  <td class="scorepl">14</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="bit.ly/BuyaoDianji">
+                    <a>
+                      <span class="forceWidth"> bit.ly/BuyaoDianji </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">6</td>
+                  <td class="scorett">491</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        8
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        189
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        73
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        41
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        133
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        7
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:168">
+                  <td class="scorepl">15</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/24.png?v=7.3.3"
+                        alt="Universitas Brawijaya"
+                        title="Universitas Brawijaya"
+                      />
+                    </a>
+                  </td>
+                  <td
+                    class="scoretn cl_ffffff"
+                    title="BCC - Bawah saya bau bawang"
+                  >
+                    <a>
+                      <span class="forceWidth">
+                        BCC - Bawah saya bau bawang
+                      </span>
+                      <span class="univ forceWidth">
+                        Universitas Brawijaya
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">6</td>
+                  <td class="scorett">766</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        24
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        103
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        53
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct score_first">
+                        147
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 7 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        244
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        15
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:234">
+                  <td class="scorepl">16</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/52.png?v=7.3.3"
+                        alt="Institut Sains dan Teknologi Terpadu Surabaya"
+                        title="Institut Sains dan Teknologi Terpadu Surabaya"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Kura - Kura Jomblo :(">
+                    <a>
+                      <span class="forceWidth"> Kura - Kura Jomblo :( </span>
+                      <span class="univ forceWidth">
+                        Institut Sains dan Teknologi Terpadu Surabaya
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">5</td>
+                  <td class="scorett">666</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        49
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        100
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        84
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 8 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        210
+                        <span> 6 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        23
+                        <span> 3 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:213">
+                  <td class="scorepl">17</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/37.png?v=7.3.3"
+                        alt="Universitas Bina Nusantara"
+                        title="Universitas Bina Nusantara"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Sedikit Lagi">
+                    <a>
+                      <span class="forceWidth"> Sedikit Lagi </span>
+                      <span class="univ forceWidth">
+                        Universitas Bina Nusantara
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">4</td>
+                  <td class="scorett">563</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        187
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        109
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 7 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        161
+                        <span> 4 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        6
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:186">
+                  <td class="scorepl">18</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/34.png?v=7.3.3"
+                        alt="Universitas Telkom"
+                        title="Universitas Telkom"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Nama TIM">
+                    <a>
+                      <span class="forceWidth"> Nama TIM </span>
+                      <span class="univ forceWidth"> Universitas Telkom </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">2</td>
+                  <td class="scorett">431</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        192
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 9 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        139
+                        <span> 5 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:231">
+                  <td class="scorepl">19</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/48.png?v=7.3.3"
+                        alt="Universitas Islam Indonesia"
+                        title="Universitas Islam Indonesia"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Alphabet">
+                    <a>
+                      <span class="forceWidth"> Alphabet </span>
+                      <span class="univ forceWidth">
+                        Universitas Islam Indonesia
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">1</td>
+                  <td class="scorett">229</td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_correct">
+                        229
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 2 tries </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 1 try </span>
+                      </div>
+                    </a>
+                  </td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell">
+                    <a>
+                      <div class="score_incorrect">
+                        &nbsp;
+                        <span> 10 tries </span>
+                      </div>
+                    </a>
+                  </td>
+                </tr>
+
+                <tr class="" id="team:200">
+                  <td class="scorepl">20</td>
+                  <td class="scoreaf"></td>
+                  <td class="scoreaf">
+                    <a>
+                      <img
+                        loading="lazy"
+                        class="affiliation-logo"
+                        src="/2021/images/affiliations/2.png?v=7.3.3"
+                        alt="Institut Teknologi Sepuluh Nopember"
+                        title="Institut Teknologi Sepuluh Nopember"
+                      />
+                    </a>
+                  </td>
+                  <td class="scoretn cl_ffffff" title="Byte Me">
+                    <a>
+                      <span class="forceWidth"> Byte Me </span>
+                      <span class="univ forceWidth">
+                        Institut Teknologi Sepuluh Nopember
+                      </span>
+                    </a>
+                  </td>
+                  <td class="scorenc">0</td>
+                  <td class="scorett">0</td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+
+                  <td class="score_cell"></td>
+                </tr>
+
+                <tr style="border-top: 2px solid black">
+                  <td id="scoresummary" title="Summary" colspan="4">Summary</td>
+                  <td title="total solved" class="scorenc">140</td>
+                  <td></td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        19
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        12
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        5min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        2
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        45
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        58min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        14
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        3
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        25min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        16
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        13
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        15min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        17
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        14
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        12min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        1
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        8
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        298min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        11
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        20
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        96min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        12
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        40
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        35min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        8
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        40
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        147min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        5
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        18
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        118min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        17
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        n/a
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        17
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        52
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        76min
+                      </span>
+                    </a>
+                  </td>
+                  <td style="text-align: left">
+                    <a>
+                      <i class="fas fa-thumbs-up fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of accepted submissions"
+                      >
+                        18
+                      </span>
+                      <br />
+
+                      <i class="fas fa-thumbs-down fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of rejected submissions"
+                      >
+                        26
+                      </span>
+                      <br />
+
+                      <i class="fas fa-question-circle fa-fw"></i>
+                      <span
+                        style="font-size: 90%"
+                        title="number of pending submissions"
+                      >
+                        0
+                      </span>
+                      <br />
+
+                      <i class="fas fa-clock fa-fw"></i>
+                      <span style="font-size: 90%" title="first solved">
+                        3min
+                      </span>
+                    </a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p><br /><br /></p>
+
+            <table id="cell_legend" class="scoreboard scorelegend">
+              <thead>
+                <tr>
+                  <th scope="col">Cell colours</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="score_first">
+                  <td>Solved first</td>
+                </tr>
+                <tr class="score_correct">
+                  <td>Solved</td>
+                </tr>
+                <tr class="score_incorrect">
+                  <td>Tried, incorrect</td>
+                </tr>
+                <tr class="score_pending">
+                  <td>Tried, pending</td>
+                </tr>
+                <tr class="score_neutral">
+                  <td>Untried</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <table class="scoreboard scorelegend">
+              <thead>
+                <tr>
+                  <th scope="col">Awards</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="gold-award">
+                  <td>Juara 1</td>
+                </tr>
+                <tr class="silver-award">
+                  <td>Juara 2</td>
+                </tr>
+                <tr class="bronze-award">
+                  <td>Juara 3</td>
+                </tr>
+                <tr class="harapan-award">
+                  <td>Juara Harapan</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <style>
+              .cl_FFFFFF {
+                background-color: #ffffff;
+              }
+
+              .cl_FFFFFF .forceWidth.toolong:after {
+                background: linear-gradient(
+                  to right,
+                  rgba(255, 255, 255, 0) 0%,
+                  rgba(255, 255, 255, 1) 96%
+                );
+              }
+
+              .cl_ffffff {
+                background-color: #ffffff;
+              }
+
+              .cl_ffffff .forceWidth.toolong:after {
+                background: linear-gradient(
+                  to right,
+                  rgba(255, 255, 255, 0) 0%,
+                  rgba(255, 255, 255, 1) 96%
+                );
+              }
+            </style>
+            <script>
+              document
+                .querySelectorAll('.forceWidth:not(.toolong)')
+                .forEach((el) => {
+                  if (
+                    el instanceof Element &&
+                    el.scrollWidth > el.offsetWidth
+                  ) {
+                    el.classList.add('toolong')
+                  }
+                })
+            </script>
+
+            <p id="lastmod">
+              Schematics NPC Senior 2021 | Schematics 2021 | Reviving the Soul
+              of Technology through Art and Logic.<br />
+              Last Update: Tue 19 Oct 2021 21:45:03 WIB<br />
+              using
+              <a href="https://www.domjudge.org/" target="_top">DOMjudge</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
