@@ -1,0 +1,245 @@
+th {
+    text-align: center !important
+}
+
+.countdown {
+    position: sticky;
+    bottom: 10px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 0;
+    width: 240px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(18, 18, 18, .8)
+}
+
+.wide {
+    width: 100%
+}
+
+.title {
+    display: block;
+    margin: 4px
+}
+
+.subtitle {
+    display: block;
+    margin: 6px
+}
+
+.tooltip {
+    visibility: visible
+}
+
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 160px;
+    background-color: #f0f8ff;
+    color: #121212;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: -80px;
+    margin-top: 50%;
+    position: absolute;
+    z-index: 1
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible
+}
+
+.verdict-pending-vivid {
+    background-color: rgba(54, 134, 236, .4)
+}
+
+.verdict-ac-first-vivid {
+    background-color: rgba(24, 164, 136, .8);
+    border: 3px solid #18a488
+}
+
+.verdict-ac-vivid {
+    background-color: rgba(24, 164, 136, .4)
+}
+
+.verdict-ac-100 {
+    background-color: rgba(0, 135, 32, .4)
+}
+
+.verdict-wa-80 {
+    background-color: rgba(60, 135, 32, .4)
+}
+
+.verdict-wa-60 {
+    background-color: rgba(118, 135, 32, .4)
+}
+
+.verdict-wa-50 {
+    background-color: rgba(176, 135, 32, .4)
+}
+
+.verdict-wa-40 {
+    background-color: rgba(176, 90, 32, .4)
+}
+
+.verdict-wa-20 {
+    background-color: rgba(176, 45, 32, .4)
+}
+
+.verdict-wa-0 {
+    background-color: rgba(176, 0, 32, .4)
+}
+
+.verdict-wa-vivid {
+    background-color: rgba(201, 61, 69, .4)
+}
+
+.verdict-pending {
+    background-color: rgba(54, 134, 236, .8);
+    border: 2px solid #186488
+}
+
+.verdict-ac,
+.verdict-ac-first {
+    background-color: rgba(24, 164, 136, .8);
+    border: 2px solid #18a488
+}
+
+.verdict-wa {
+    background-color: rgba(201, 61, 69, .8);
+    border: 2px solid #c93d45
+}
+
+.verdict-neutral {
+    background-color: transparent
+}
+
+.verdict-disqualified {
+    background-color: rgba(100, 61, 69, .8)
+}
+
+.solution {
+    padding: 4px;
+    padding-top: 8px;
+    margin: 2px;
+    text-align: center
+}
+
+.solution-time {
+    font-size: 1.1em
+}
+
+.solution-points {
+    font-size: .7em;
+    padding: 1px;
+    border-radius: 2px
+}
+
+.scoreboard {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%
+}
+
+h3 {
+    font-size: .9em
+}
+
+.institute-logo {
+    height: 40px;
+    margin: 10px;
+    margin-top: auto;
+    margin-bottom: auto
+}
+
+.institute-logo-box {
+    height: 40px;
+    width: 40px;
+    margin: 10px
+}
+
+.center-absolute {
+    position: absolute
+}
+
+.center-absolute,
+.center-relative {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.center-relative {
+    position: relative
+}
+
+.center-block {
+    margin: auto;
+    display: block
+}
+
+.container-absolute {
+    position: absolute
+}
+
+.container-relative {
+    position: relative
+}
+
+.button-list {
+    width: 100%;
+    margin: 2px auto;
+    padding: 4px
+}
+
+.home-component {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    width: min(90%, 350px)
+}
+
+.sponsor-container {
+    padding: 1.5rem;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    margin-top: 40px;
+    min-width: min(720px, 80%);
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 100%, .1)
+}
+
+.sponsor-title {
+    font-size: 1.2rem;
+    text-align: center
+}
+
+.sponsor-banner {
+    display: block;
+    margin: 20px auto
+}
+
+.sponsor-list {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.sponsor-img {
+    height: 50px;
+    margin: 5px 10px
+}
+
+@media screen and (min-width:720px) {
+    .sponsor-list {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        min-width: 720px;
+        min-width: min(720px, 80%)
+    }
+}

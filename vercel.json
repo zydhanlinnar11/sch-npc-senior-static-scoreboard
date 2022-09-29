@@ -1,6 +1,6 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/2021/final" },
-    { "source": "/2021", "destination": "/2021/final" }
+    { "source": "/", "destination": "/2022/penyisihan" },
+    { "source": "/2022", "destination": "/2022/penyisihan" }
   ]
 }
