@@ -1,0 +1,853 @@
+{
+  "data": {
+    "type": "OFFICIAL",
+    "style": "ICPC",
+    "totalEntries": 48,
+    "updatedTime": 1663992020289,
+    "scoreboard": {
+      "content": {
+        "entries": [
+          {
+            "contestantUsername": "pekorandomsolution",
+            "contestantRating": 0,
+            "totalAccepted": 9,
+            "totalPenalties": 787,
+            "lastAcceptedPenalty": 9480376,
+            "attemptsList": [6, 2, 4, 3, 3, 2, 1, 1, 1],
+            "penaltyList": [150, 11, 48, 87, 159, 20, 7, 21, 4],
+            "problemStateList": [1, 2, 2, 2, 1, 2, 1, 1, 1],
+            "rank": 1,
+            "contestantJid": "JIDUSERAJgaPASlxl524SMqoRcQ"
+          },
+          {
+            "contestantUsername": "stack.py",
+            "contestantRating": 0,
+            "totalAccepted": 9,
+            "totalPenalties": 940,
+            "lastAcceptedPenalty": 8357442,
+            "attemptsList": [1, 3, 6, 7, 2, 4, 1, 1, 1],
+            "penaltyList": [62, 61, 87, 110, 140, 119, 9, 9, 3],
+            "problemStateList": [2, 1, 1, 1, 2, 1, 1, 2, 1],
+            "rank": 2,
+            "contestantJid": "JIDUSERDmsVYRyly1PsQTksj3wv"
+          },
+          {
+            "contestantUsername": "Jangan Salah Baca Soal Lagi",
+            "contestantRating": 0,
+            "totalAccepted": 9,
+            "totalPenalties": 981,
+            "lastAcceptedPenalty": 10699889,
+            "attemptsList": [2, 4, 2, 5, 3, 2, 1, 2, 1],
+            "penaltyList": [154, 59, 56, 107, 179, 138, 5, 19, 4],
+            "problemStateList": [1, 1, 1, 1, 1, 1, 1, 1, 1],
+            "rank": 3,
+            "contestantJid": "JIDUSERRgsvPX1ww3mJ5tEMzZ4g"
+          },
+          {
+            "contestantUsername": "Kotlin Enjoyers",
+            "contestantRating": 0,
+            "totalAccepted": 7,
+            "totalPenalties": 619,
+            "lastAcceptedPenalty": 9239605,
+            "attemptsList": [0, 4, 2, 3, 0, 1, 1, 4, 1],
+            "penaltyList": [0, 80, 51, 99, 0, 154, 3, 43, 9],
+            "problemStateList": [0, 1, 1, 1, 0, 1, 2, 1, 1],
+            "rank": 4,
+            "contestantJid": "JIDUSERgWjYmP7vbUSuNSiSkjYV"
+          },
+          {
+            "contestantUsername": "sudad",
+            "contestantRating": 0,
+            "totalAccepted": 7,
+            "totalPenalties": 724,
+            "lastAcceptedPenalty": 10544761,
+            "attemptsList": [0, 5, 6, 1, 0, 1, 1, 2, 1],
+            "penaltyList": [0, 106, 176, 173, 0, 43, 10, 12, 4],
+            "problemStateList": [0, 1, 1, 1, 0, 1, 1, 1, 1],
+            "rank": 5,
+            "contestantJid": "JIDUSERQOIdcwyIiPBY7QMh2bqL"
+          },
+          {
+            "contestantUsername": "ALways WYN",
+            "contestantRating": 0,
+            "totalAccepted": 6,
+            "totalPenalties": 597,
+            "lastAcceptedPenalty": 9570366,
+            "attemptsList": [7, 3, 6, 11, 0, 0, 1, 1, 1],
+            "penaltyList": [160, 24, 127, 0, 0, 0, 7, 16, 3],
+            "problemStateList": [1, 1, 1, 0, 0, 0, 1, 1, 2],
+            "rank": 6,
+            "contestantJid": "JIDUSERBRCzCVl0zmLTBnrHieKm"
+          },
+          {
+            "contestantUsername": "Serializability",
+            "contestantRating": 0,
+            "totalAccepted": 6,
+            "totalPenalties": 649,
+            "lastAcceptedPenalty": 10409024,
+            "attemptsList": [0, 2, 5, 5, 0, 3, 1, 2, 3],
+            "penaltyList": [0, 57, 0, 157, 0, 174, 6, 20, 35],
+            "problemStateList": [0, 1, 0, 1, 0, 1, 1, 1, 1],
+            "rank": 7,
+            "contestantJid": "JIDUSER3JeFbHN2VHREOlYIHX9s"
+          },
+          {
+            "contestantUsername": "mixedpeanuts",
+            "contestantRating": 0,
+            "totalAccepted": 6,
+            "totalPenalties": 919,
+            "lastAcceptedPenalty": 8306808,
+            "attemptsList": [0, 5, 5, 14, 0, 0, 1, 5, 2],
+            "penaltyList": [0, 105, 80, 139, 0, 0, 11, 52, 12],
+            "problemStateList": [0, 1, 1, 1, 0, 0, 1, 1, 1],
+            "rank": 8,
+            "contestantJid": "JIDUSERCzmtMwCqFodbwmVSMLLa"
+          },
+          {
+            "contestantUsername": "Menggokil",
+            "contestantRating": 0,
+            "totalAccepted": 5,
+            "totalPenalties": 427,
+            "lastAcceptedPenalty": 9414098,
+            "attemptsList": [2, 5, 5, 1, 0, 0, 1, 1, 1],
+            "penaltyList": [0, 78, 157, 0, 0, 0, 3, 17, 12],
+            "problemStateList": [0, 1, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 9,
+            "contestantJid": "JIDUSEREWbbwVmeAMdxLbNhbr8X"
+          },
+          {
+            "contestantUsername": "@Vector gimana?",
+            "contestantRating": 0,
+            "totalAccepted": 5,
+            "totalPenalties": 428,
+            "lastAcceptedPenalty": 7890973,
+            "attemptsList": [0, 4, 5, 9, 0, 0, 1, 1, 2],
+            "penaltyList": [0, 89, 132, 0, 0, 0, 9, 34, 4],
+            "problemStateList": [0, 1, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 10,
+            "contestantJid": "JIDUSERUHitTr02ClAdBVSexl1J"
+          },
+          {
+            "contestantUsername": "Ga ada ide nama tim :v",
+            "contestantRating": 0,
+            "totalAccepted": 5,
+            "totalPenalties": 492,
+            "lastAcceptedPenalty": 7275260,
+            "attemptsList": [0, 4, 3, 2, 0, 0, 1, 2, 2],
+            "penaltyList": [0, 74, 122, 0, 0, 0, 13, 108, 35],
+            "problemStateList": [0, 1, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 11,
+            "contestantJid": "JIDUSERRh7xRIPpDYkFlR4O41SR"
+          },
+          {
+            "contestantUsername": "\"skill issue\"",
+            "contestantRating": 0,
+            "totalAccepted": 5,
+            "totalPenalties": 494,
+            "lastAcceptedPenalty": 10011688,
+            "attemptsList": [0, 5, 9, 2, 0, 0, 1, 1, 1],
+            "penaltyList": [0, 45, 167, 0, 0, 0, 10, 26, 6],
+            "problemStateList": [0, 1, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 12,
+            "contestantJid": "JIDUSERZ4mlmFdbp0dZoRlbBx1Q"
+          },
+          {
+            "contestantUsername": "Melon Musk",
+            "contestantRating": 0,
+            "totalAccepted": 5,
+            "totalPenalties": 574,
+            "lastAcceptedPenalty": 8403265,
+            "attemptsList": [0, 4, 4, 0, 0, 0, 1, 2, 4],
+            "penaltyList": [0, 115, 141, 0, 0, 0, 7, 73, 38],
+            "problemStateList": [0, 1, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 13,
+            "contestantJid": "JIDUSERpMigyjqqIHLQF4lNuXo4"
+          },
+          {
+            "contestantUsername": "Writing Morbillion Lines of Code",
+            "contestantRating": 0,
+            "totalAccepted": 5,
+            "totalPenalties": 607,
+            "lastAcceptedPenalty": 10511746,
+            "attemptsList": [0, 6, 4, 0, 0, 0, 1, 2, 3],
+            "penaltyList": [0, 49, 176, 0, 0, 0, 16, 108, 38],
+            "problemStateList": [0, 1, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 14,
+            "contestantJid": "JIDUSERmxEW1CI87Lbrh9rrUO6j"
+          },
+          {
+            "contestantUsername": "ketagihan cp",
+            "contestantRating": 0,
+            "totalAccepted": 4,
+            "totalPenalties": 154,
+            "lastAcceptedPenalty": 3460134,
+            "attemptsList": [0, 2, 0, 1, 0, 0, 1, 1, 2],
+            "penaltyList": [0, 28, 0, 0, 0, 0, 16, 58, 12],
+            "problemStateList": [0, 1, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 15,
+            "contestantJid": "JIDUSERLAAdiHw0iORfMu5mRPHr"
+          },
+          {
+            "contestantUsername": "Eldwin Chrisandy Toari",
+            "contestantRating": 0,
+            "totalAccepted": 4,
+            "totalPenalties": 204,
+            "lastAcceptedPenalty": 4824260,
+            "attemptsList": [0, 2, 4, 0, 0, 0, 1, 1, 1],
+            "penaltyList": [0, 81, 0, 0, 0, 0, 16, 74, 13],
+            "problemStateList": [0, 1, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 16,
+            "contestantJid": "JIDUSERUZylTe4l8Rar2jREGF3N"
+          },
+          {
+            "contestantUsername": "FFT",
+            "contestantRating": 0,
+            "totalAccepted": 4,
+            "totalPenalties": 231,
+            "lastAcceptedPenalty": 4418741,
+            "attemptsList": [0, 5, 17, 0, 0, 0, 1, 1, 1],
+            "penaltyList": [0, 74, 0, 0, 0, 0, 8, 62, 7],
+            "problemStateList": [0, 1, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 17,
+            "contestantJid": "JIDUSERDfitOKqEsjtxnsOMVR5t"
+          },
+          {
+            "contestantUsername": "Try4One",
+            "contestantRating": 0,
+            "totalAccepted": 4,
+            "totalPenalties": 239,
+            "lastAcceptedPenalty": 6642677,
+            "attemptsList": [0, 13, 5, 1, 0, 0, 1, 1, 1],
+            "penaltyList": [0, 0, 111, 0, 0, 0, 7, 36, 5],
+            "problemStateList": [0, 0, 1, 0, 0, 0, 1, 1, 1],
+            "rank": 18,
+            "contestantJid": "JIDUSERDWvrBYTdbkD7QsOaqrGn"
+          },
+          {
+            "contestantUsername": "Muhammad Gilang Ramadhan",
+            "contestantRating": 0,
+            "totalAccepted": 4,
+            "totalPenalties": 298,
+            "lastAcceptedPenalty": 5294365,
+            "attemptsList": [0, 4, 3, 1, 0, 1, 1, 3, 1],
+            "penaltyList": [0, 89, 0, 0, 0, 0, 26, 53, 30],
+            "problemStateList": [0, 1, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 19,
+            "contestantJid": "JIDUSERAe0msvzoUthf0n17vLmm"
+          },
+          {
+            "contestantUsername": "bertiga",
+            "contestantRating": 0,
+            "totalAccepted": 4,
+            "totalPenalties": 450,
+            "lastAcceptedPenalty": 8783132,
+            "attemptsList": [0, 10, 12, 1, 0, 0, 1, 1, 4],
+            "penaltyList": [0, 147, 0, 0, 0, 0, 9, 33, 21],
+            "problemStateList": [0, 1, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 20,
+            "contestantJid": "JIDUSERQObLxbHvzMd4DxukVQs6"
+          },
+          {
+            "contestantUsername": "Dewa JoKi",
+            "contestantRating": 0,
+            "totalAccepted": 3,
+            "totalPenalties": 39,
+            "lastAcceptedPenalty": 1019265,
+            "attemptsList": [0, 3, 7, 1, 0, 0, 1, 1, 1],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 10, 12, 17],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 21,
+            "contestantJid": "JIDUSERqihZh1RW0YVhsFGx49RL"
+          },
+          {
+            "contestantUsername": "SemaksimalMungkin",
+            "contestantRating": 0,
+            "totalAccepted": 3,
+            "totalPenalties": 148,
+            "lastAcceptedPenalty": 1948136,
+            "attemptsList": [0, 2, 0, 1, 0, 0, 1, 4, 2],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 13, 33, 22],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 22,
+            "contestantJid": "JIDUSERbI3jRDmcWGEXBFrVpaxf"
+          },
+          {
+            "contestantUsername": "mantra hujan",
+            "contestantRating": 0,
+            "totalAccepted": 3,
+            "totalPenalties": 165,
+            "lastAcceptedPenalty": 3556720,
+            "attemptsList": [0, 5, 9, 0, 0, 0, 2, 4, 1],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 17, 60, 8],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 1, 1],
+            "rank": 23,
+            "contestantJid": "JIDUSERbNNdxTdGMraxHnKmVzPR"
+          },
+          {
+            "contestantUsername": "Wakacauuu",
+            "contestantRating": 0,
+            "totalAccepted": 3,
+            "totalPenalties": 527,
+            "lastAcceptedPenalty": 9897899,
+            "attemptsList": [0, 1, 4, 1, 0, 0, 4, 1, 9],
+            "penaltyList": [0, 82, 0, 0, 0, 0, 60, 0, 165],
+            "problemStateList": [0, 1, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 24,
+            "contestantJid": "JIDUSERu2iicuAVbQXT5CzbtRvm"
+          },
+          {
+            "contestantUsername": "Expecto Patronum",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 62,
+            "lastAcceptedPenalty": 1732102,
+            "attemptsList": [0, 12, 3, 1, 0, 0, 1, 21, 2],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 13, 0, 29],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 25,
+            "contestantJid": "JIDUSERoG1V7dIa9JFL8ZqJKgD4"
+          },
+          {
+            "contestantUsername": "#define verdict_status AC",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 191,
+            "lastAcceptedPenalty": 6370155,
+            "attemptsList": [0, 6, 0, 1, 0, 0, 2, 2, 1],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 64, 0, 107],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 26,
+            "contestantJid": "JIDUSERSSVO8ECZ3T3utqT5dxVh"
+          },
+          {
+            "contestantUsername": "No Name",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 239,
+            "lastAcceptedPenalty": 7508747,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 1, 0, 4],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 53, 0, 126],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 27,
+            "contestantJid": "JIDUSERAbIkJPO10ROfP8TuB0H8"
+          },
+          {
+            "contestantUsername": "Ikan Dori",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 239,
+            "lastAcceptedPenalty": 7657091,
+            "attemptsList": [0, 2, 0, 3, 0, 0, 1, 0, 1],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 111, 0, 128],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 28,
+            "contestantJid": "JIDUSERzhKb3MlPEhDgVpGSkLnE"
+          },
+          {
+            "contestantUsername": "Koethil Amoeba",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 332,
+            "lastAcceptedPenalty": 8491028,
+            "attemptsList": [0, 5, 2, 0, 0, 1, 7, 3, 2],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 50, 0, 142],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 29,
+            "contestantJid": "JIDUSER0jpD00r6A4nP7DA7gUUp"
+          },
+          {
+            "contestantUsername": "bismillah",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 346,
+            "lastAcceptedPenalty": 7984854,
+            "attemptsList": [0, 2, 0, 3, 0, 0, 1, 7, 2],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 92, 134, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 1, 0],
+            "rank": 30,
+            "contestantJid": "JIDUSEReRepIxxvyQM6uBnzeHsa"
+          },
+          {
+            "contestantUsername": "Confused++",
+            "contestantRating": 0,
+            "totalAccepted": 2,
+            "totalPenalties": 453,
+            "lastAcceptedPenalty": 10327462,
+            "attemptsList": [0, 3, 0, 4, 0, 0, 3, 0, 9],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 80, 0, 173],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 1],
+            "rank": 31,
+            "contestantJid": "JIDUSERmmkO2asAiV6JksWcdNjK"
+          },
+          {
+            "contestantUsername": "PernolepanSurgawi",
+            "contestantRating": 0,
+            "totalAccepted": 1,
+            "totalPenalties": 32,
+            "lastAcceptedPenalty": 1885168,
+            "attemptsList": [0, 1, 0, 1, 0, 0, 1, 0, 4],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 32, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 0],
+            "rank": 32,
+            "contestantJid": "JIDUSERjI5LudaHFWkrZIG1byV8"
+          },
+          {
+            "contestantUsername": "Forbidden 403",
+            "contestantRating": 0,
+            "totalAccepted": 1,
+            "totalPenalties": 40,
+            "lastAcceptedPenalty": 1166218,
+            "attemptsList": [0, 5, 0, 3, 0, 0, 2, 2, 5],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 20, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 0],
+            "rank": 33,
+            "contestantJid": "JIDUSER98eXZnTC2Cry5pQql9M9"
+          },
+          {
+            "contestantUsername": "HayuBisa",
+            "contestantRating": 0,
+            "totalAccepted": 1,
+            "totalPenalties": 75,
+            "lastAcceptedPenalty": 4443474,
+            "attemptsList": [0, 9, 0, 2, 0, 0, 1, 2, 4],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 75, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 0],
+            "rank": 34,
+            "contestantJid": "JIDUSERtO2OEEL0afyYM5jaVmGx"
+          },
+          {
+            "contestantUsername": "HackersHaven",
+            "contestantRating": 0,
+            "totalAccepted": 1,
+            "totalPenalties": 115,
+            "lastAcceptedPenalty": 2088288,
+            "attemptsList": [0, 3, 0, 0, 0, 0, 5, 1, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 35, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 0],
+            "rank": 35,
+            "contestantJid": "JIDUSERUaEOEGxuRg0RvhumpLJC"
+          },
+          {
+            "contestantUsername": "Lontong Bakar",
+            "contestantRating": 0,
+            "totalAccepted": 1,
+            "totalPenalties": 253,
+            "lastAcceptedPenalty": 10365597,
+            "attemptsList": [0, 6, 0, 1, 0, 0, 5, 0, 1],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 173, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 1, 0, 0],
+            "rank": 36,
+            "contestantJid": "JIDUSER4Iz6NWIG0cv7tT6vu4Bn"
+          },
+          {
+            "contestantUsername": "Scavanger",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 3, 0, 3, 0, 0, 5, 0, 2],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSEReCAyqQdzSEfE6fyj6Ssl"
+          },
+          {
+            "contestantUsername": "Saya Lupa",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 2, 0, 3, 0, 0, 2, 0, 1],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERpjYWmWbDiviKyhLWEutD"
+          },
+          {
+            "contestantUsername": "Lontong Sayur",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 0, 0, 7],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERMGbayrBNKIrj4EqWQtTk"
+          },
+          {
+            "contestantUsername": "Backspace",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 3, 0, 0, 1, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERO94mhUnIMAFRlmQSHEXF"
+          },
+          {
+            "contestantUsername": "Haskell 123",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 1, 0, 0, 3, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERuc4mTCKRs2pytvr6IyNq"
+          },
+          {
+            "contestantUsername": "botfrag",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 4, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERmDWLuFTc9s1RACEEKLcV"
+          },
+          {
+            "contestantUsername": "Doa Dosen",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 0, 0, 2],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSER8PjYgp2kRNpT731ApVGH"
+          },
+          {
+            "contestantUsername": "Delai Resgista Setyawan",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 1, 0, 0, 0, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERVKKOj3533CpdWWRjISKx"
+          },
+          {
+            "contestantUsername": "4Tz",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSER4MEpJS19t0HkIVkGbuyV"
+          },
+          {
+            "contestantUsername": "Code Warriors",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSER0HargMrNhONzxZZrIjMu"
+          },
+          {
+            "contestantUsername": "Gigachad",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERmIUpOGaZGWTvfNLarWVr"
+          },
+          {
+            "contestantUsername": "arekTC22()",
+            "contestantRating": 0,
+            "totalAccepted": 0,
+            "totalPenalties": 0,
+            "lastAcceptedPenalty": 0,
+            "attemptsList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "penaltyList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "problemStateList": [0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "rank": 37,
+            "contestantJid": "JIDUSERehqtUaGSrNouF0eskrP6"
+          }
+        ]
+      },
+      "state": {
+        "problemJids": [
+          "JIDPROGCv91MvJgHOLLGn7h2DJ5",
+          "JIDPROGznPe8eQtJ13DI2tzMoyq",
+          "JIDPROGFiTQj7anZTZ1L0ei9UYJ",
+          "JIDPROGPYXj4Jrv6894yr5kOh6V",
+          "JIDPROGcJyBOqMsvjZkCG2QFHF6",
+          "JIDPROGxSYqKCLa5eMfTNMHLwrA",
+          "JIDPROGeOZYzHSnW5kD4ut6RIqg",
+          "JIDPROGVF1k73sRPkg4Erd0iVVm",
+          "JIDPROGdndE05W2afGZSK5222gr"
+        ],
+        "problemAliases": ["A", "B", "C", "D", "E", "F", "G", "H", "I"],
+        "problemPoints": null
+      }
+    }
+  },
+  "profilesMap": {
+    "JIDUSER8PjYgp2kRNpT731ApVGH": {
+      "username": "Doa Dosen",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERRgsvPX1ww3mJ5tEMzZ4g": {
+      "username": "Jangan Salah Baca Soal Lagi",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERbI3jRDmcWGEXBFrVpaxf": {
+      "username": "SemaksimalMungkin",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSER4Iz6NWIG0cv7tT6vu4Bn": {
+      "username": "Lontong Bakar",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSER0jpD00r6A4nP7DA7gUUp": {
+      "username": "Koethil Amoeba",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERO94mhUnIMAFRlmQSHEXF": {
+      "username": "Backspace",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERuc4mTCKRs2pytvr6IyNq": {
+      "username": "Haskell 123",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERqihZh1RW0YVhsFGx49RL": {
+      "username": "Dewa JoKi",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERmDWLuFTc9s1RACEEKLcV": {
+      "username": "botfrag",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERpjYWmWbDiviKyhLWEutD": {
+      "username": "Saya Lupa",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERpMigyjqqIHLQF4lNuXo4": {
+      "username": "Melon Musk",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERbNNdxTdGMraxHnKmVzPR": {
+      "username": "mantra hujan",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERUaEOEGxuRg0RvhumpLJC": {
+      "username": "HackersHaven",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERQObLxbHvzMd4DxukVQs6": {
+      "username": "bertiga",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERehqtUaGSrNouF0eskrP6": {
+      "username": "arekTC22()",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERAbIkJPO10ROfP8TuB0H8": {
+      "username": "No Name",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERZ4mlmFdbp0dZoRlbBx1Q": {
+      "username": "\"skill issue\"",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSER0HargMrNhONzxZZrIjMu": {
+      "username": "Code Warriors",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERMGbayrBNKIrj4EqWQtTk": {
+      "username": "Lontong Sayur",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSEREWbbwVmeAMdxLbNhbr8X": {
+      "username": "Menggokil",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERgWjYmP7vbUSuNSiSkjYV": {
+      "username": "Kotlin Enjoyers",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERQOIdcwyIiPBY7QMh2bqL": {
+      "username": "sudad",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERDmsVYRyly1PsQTksj3wv": {
+      "username": "stack.py",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSEReCAyqQdzSEfE6fyj6Ssl": {
+      "username": "Scavanger",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERzhKb3MlPEhDgVpGSkLnE": {
+      "username": "Ikan Dori",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERAe0msvzoUthf0n17vLmm": {
+      "username": "Muhammad Gilang Ramadhan",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERBRCzCVl0zmLTBnrHieKm": {
+      "username": "ALways WYN",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSER98eXZnTC2Cry5pQql9M9": {
+      "username": "Forbidden 403",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERAJgaPASlxl524SMqoRcQ": {
+      "username": "pekorandomsolution",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERmmkO2asAiV6JksWcdNjK": {
+      "username": "Confused++",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERLAAdiHw0iORfMu5mRPHr": {
+      "username": "ketagihan cp",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERDfitOKqEsjtxnsOMVR5t": {
+      "username": "FFT",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERjI5LudaHFWkrZIG1byV8": {
+      "username": "PernolepanSurgawi",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERDWvrBYTdbkD7QsOaqrGn": {
+      "username": "Try4One",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERSSVO8ECZ3T3utqT5dxVh": {
+      "username": "#define verdict_status AC",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSER4MEpJS19t0HkIVkGbuyV": {
+      "username": "4Tz",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERUHitTr02ClAdBVSexl1J": {
+      "username": "@Vector gimana?",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSEReRepIxxvyQM6uBnzeHsa": {
+      "username": "bismillah",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERUZylTe4l8Rar2jREGF3N": {
+      "username": "Eldwin Chrisandy Toari",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERu2iicuAVbQXT5CzbtRvm": {
+      "username": "Wakacauuu",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERVKKOj3533CpdWWRjISKx": {
+      "username": "Delai Resgista Setyawan",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERoG1V7dIa9JFL8ZqJKgD4": {
+      "username": "Expecto Patronum",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERmIUpOGaZGWTvfNLarWVr": {
+      "username": "Gigachad",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERRh7xRIPpDYkFlR4O41SR": {
+      "username": "Ga ada ide nama tim :v",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERtO2OEEL0afyYM5jaVmGx": {
+      "username": "HayuBisa",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERmxEW1CI87Lbrh9rrUO6j": {
+      "username": "Writing Morbillion Lines of Code",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSERCzmtMwCqFodbwmVSMLLa": {
+      "username": "mixedpeanuts",
+      "country": "ID",
+      "rating": null
+    },
+    "JIDUSER3JeFbHN2VHREOlYIHX9s": {
+      "username": "Serializability",
+      "country": "ID",
+      "rating": null
+    }
+  },
+  "config": {
+    "canViewOfficialAndFrozen": true,
+    "canViewClosedProblems": false,
+    "canRefresh": true,
+    "canViewSubmissions": false
+  }
+}
